@@ -35,10 +35,13 @@ const addPrefixSuffix = (text, keyName) => {
   }
 };
 
-const createXAxis = xAxisText => ({
+const createAxis = xAxisText => ({
   title: {
     enabled: true,
     text: addUnitLabel(xAxisText),
+    style: {
+      fontSize: '16px',
+    },
   },
   tickInterval: 1,
   minPadding: 0,
@@ -46,6 +49,11 @@ const createXAxis = xAxisText => ({
   startOnTick: true,
   endOnTick: true,
   showLastLabel: true,
+  labels: {
+    style: {
+      fontSize: '16px',
+    },
+  },
 });
 
 const createTooltipPointFormat = (xAxisText, yAxisText) =>
@@ -55,8 +63,8 @@ export const updateChart = ({ chart, xAxisText, yAxisText, data }) => {
   try {
     chart.series[0].setData(data, false);
     chart.update({
-      xAxis: createXAxis(xAxisText),
-      yAxis: createXAxis(yAxisText),
+      xAxis: createAxis(xAxisText),
+      yAxis: createAxis(yAxisText),
       plotOptions: {
         scatter: { tooltip: { pointFormat: createTooltipPointFormat(xAxisText, yAxisText) } },
       },
@@ -76,12 +84,8 @@ export const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointer
     title: {
       text: 'Trip chart',
     },
-    xAxis: createXAxis(xAxisText),
-    yAxis: {
-      title: {
-        text: addUnitLabel(yAxisText),
-      },
-    },
+    xAxis: createAxis(xAxisText),
+    yAxis: createAxis(yAxisText),
     plotOptions: {
       scatter: {
         marker: {

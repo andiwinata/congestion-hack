@@ -16,15 +16,15 @@ const getYearlyCost = mapUrl => {
     return null;
   }
   return (
-    <React.Fragment>
+    <div className="yearlyInfoWrapper is-primary">
       <h4>Each year, you will consume in total:</h4>
       <ul>
-        <li>Money: ${(trip.costYearly).toFixed(2)}</li>
+        <li>Money: ${trip.costYearly}</li>
         <li>Time: {(trip.timeYearly / 1440).toFixed(1)} days</li>
         <li>CO2: {trip.environmentYearly} grams</li>
         <li>Calories: {trip.healthYearly} calories</li>
       </ul>
-    </React.Fragment>
+    </div>
   );
 };
 

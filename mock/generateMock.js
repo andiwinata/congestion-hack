@@ -12,7 +12,14 @@ function randomIntFromInterval(min, max) {
 }
 
 // const apiResults = [require('./sydney_strathfield.json')];
-const apiResults = [require('./car.json'), require('./mix_car_public.json'), require('./public_transport.json')];
+// const apiResults = [require('./car.json'), require('./mix_car_public.json'), require('./public_transport.json')];
+const apiResults = [
+  require('./trip_cy_bic.json'),
+  require('./trip_cy_bic-pt_pub.json'),
+  require('./trip_me_car.json'),
+  require('./trip_me_car-pt_pub.json'),
+  require('./trip_pt_pub.json'),
+];
 
 const getFlatSaveURLsObj = apiResult => {
   const saveURLsObj = apiResult.groups.map(group => {
