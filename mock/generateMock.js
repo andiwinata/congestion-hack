@@ -26,7 +26,7 @@ const getFlatSaveURLsObj = apiResult => {
       return {
         saveURL: trip.saveURL,
         cost,
-        costYearly: trip.moneyCost * yearly,
+        costYearly: (trip.moneyCost * yearly).toFixed(2),
         time,
         timeYearly: time * yearly,
         environment,

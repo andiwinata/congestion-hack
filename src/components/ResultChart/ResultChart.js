@@ -64,8 +64,8 @@ const mapStateToProps = ({ trip }) => {
   return {
     from: trip.from,
     to: trip.to,
-    xAxisText: trip.option1,
-    yAxisText: trip.option2,
+    yAxisText: trip.option1,
+    xAxisText: trip.option2,
   };
 };
 

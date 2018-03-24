@@ -53,10 +53,10 @@ const createTooltipPointFormat = (xAxisText, yAxisText) =>
 
 export const updateChart = ({ chart, xAxisText, yAxisText, data }) => {
   try {
-    chart.xAxis[0].update(createXAxis(xAxisText), false);
-    chart.yAxis[0].update(createXAxis(yAxisText), false);
     chart.series[0].setData(data, false);
     chart.update({
+      xAxis: createXAxis(xAxisText),
+      yAxis: createXAxis(yAxisText),
       plotOptions: {
         scatter: { tooltip: { pointFormat: createTooltipPointFormat(xAxisText, yAxisText) } },
       },
