@@ -6,7 +6,7 @@ import './ResultChart.css';
 
 class ResultChart extends React.Component {
   componentDidMount() {
-    this.chart = createChart('chartContainer');
+    this.chart = createChart('chartContainer', 'Time', 'Cost');
   }
 
   componentWillUnmount() {
@@ -36,5 +36,4 @@ const mapStateToProps = ({ trip }) => {
 };
 
 const enhance = compose(connect(mapStateToProps), branch(({ from, to }) => !(from && to), renderComponent(() => null)));
-
 export default enhance(ResultChart);
