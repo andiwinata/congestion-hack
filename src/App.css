@@ -2,12 +2,10 @@
   position: relative; }
 
 .sidebar {
-  position: absolute;
-  top: 0;
-  left: 0;
   padding: 16px;
   background: #fff;
-  margin: 20px 8px 8px 20px;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px 0px 8px 20px;
   min-height: 25%; }
+
+.mapWrapper {
+  padding-left: 0; }
