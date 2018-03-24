@@ -19,6 +19,7 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
+    "deploy": "push-dir --dir=build --branch=gh-pages --cleanup",
     "build-css": "node-sass-chokidar src/ -o src/ --include-path ./node_modules src",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive --include-path ./node_modules src/",
     "start-js": "react-scripts start",
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "node-sass-chokidar": "^1.2.0",
-    "npm-run-all": "^4.1.2"
+    "npm-run-all": "^4.1.2",
+    "push-dir": "^0.4.1"
   }
 }
