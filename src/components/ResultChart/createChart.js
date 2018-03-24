@@ -1,5 +1,38 @@
 import Highcharts from 'highcharts';
 
+const addUnitLabel = (keyName) => {
+  const lowerKeyName = keyName.toLowerCase();
+  switch (lowerKeyName) {
+    case 'cost':
+      return `${keyName} (AUD)`;
+    case 'time':
+      return `${keyName} (mins)`;
+    case 'environment':
+      return `${keyName} (gr of CO2)`;
+    case 'health':
+      return `${keyName} (cal)`;
+    default:
+      return keyName;
+  }
+};
+
+// adding prefix suffix for tooltip
+const addPrefixSuffix = (text, keyName) => {
+  const lowerKeyName = keyName.toLowerCase();
+  switch (lowerKeyName) {
+    case 'cost':
+      return `${keyName}: $${text}`;
+    case 'time':
+      return `${keyName}: ${text} mins`;
+    case 'environment':
+      return `${keyName}: ${text} gr CO2`;
+    case 'health':
+      return `${keyName}: ${text} cal`;
+    default:
+      return `${keyName}: ${text}`;
+  }
+};
+
 const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick }) => {
   return Highcharts.chart(elementTarget, {
     chart: {
@@ -13,7 +46,7 @@ const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick
     xAxis: {
       title: {
         enabled: true,
-        text: xAxisText,
+        text: addUnitLabel(xAxisText),
       },
       tickInterval: 1,
       minPadding: 0,
@@ -24,7 +57,7 @@ const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick
     },
     yAxis: {
       title: {
-        text: yAxisText,
+        text: addUnitLabel(yAxisText),
       },
     },
     plotOptions: {
@@ -47,7 +80,7 @@ const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick
         },
         tooltip: {
           headerFormat: '<b>{series.name}</b><br>',
-          pointFormat: `${xAxisText}: {point.x}, ${yAxisText}: {point.y}`,
+          pointFormat: `${addPrefixSuffix('{point.x}', xAxisText)}, ${addPrefixSuffix('{point.y}', yAxisText)}`,
         },
       },
       series: {

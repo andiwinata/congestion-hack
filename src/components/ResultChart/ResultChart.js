@@ -6,13 +6,30 @@ import mockData from 'mockResult/mock.json';
 import createChart from './createChart';
 import './ResultChart.css';
 
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+const appendXY = (mockData, xKey, yKey) => {
+  return mockData.map(data => {
+    return {
+      ...data,
+      x: data[xKey],
+      y: data[yKey],
+    };
+  });
+};
+
 class ResultChart extends React.Component {
   componentDidMount() {
+    const { xAxisText, yAxisText } = this.props;
+    const appendedMockData = appendXY(mockData, xAxisText, yAxisText);
+
     this.chart = createChart({
       elementTarget: 'chartContainer',
-      xAxisText: 'Time',
-      yAxisText: 'Cost',
-      data: mockData,
+      xAxisText: capitalizeFirstLetter(xAxisText),
+      yAxisText: capitalizeFirstLetter(yAxisText),
+      data: appendedMockData,
       pointerOnClick: this.pointerOnClick,
     });
   }
@@ -49,6 +66,11 @@ const mapStateToProps = ({ trip }) => {
 
 const mapDispatchToProps = {
   setMapUrl,
+};
+
+ResultChart.defaultProps = {
+  xAxisText: 'cost',
+  yAxisText: 'time',
 };
 
 const enhance = compose(
