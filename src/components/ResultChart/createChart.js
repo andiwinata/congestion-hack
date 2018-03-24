@@ -5,7 +5,7 @@ const createChart = (elementTarget, xAxisText, yAxisText) => {
     chart: {
       type: 'scatter',
       zoomType: 'xy',
-      backgroundColor: 'rgb(241, 241, 241)',
+      backgroundColor: '#fff',
     },
     title: {
       text: 'Trip chart',

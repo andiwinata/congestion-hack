@@ -4,10 +4,10 @@ import ResultChart from 'components/ResultChart/ResultChart';
 import './SideBar.css';
 
 const SideBar = () => (
-  <aside className="column is-4 wrapper">
+  <React.Fragment>
     <TripForm />
     <ResultChart />
-  </aside>
+  </React.Fragment>
 );
 
 export default SideBar;

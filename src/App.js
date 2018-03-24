@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import SideBar from 'components/SideBar/SideBar';
+import Map from 'components/Map/Map';
 import configureStore from 'store/configureStore';
 import './App.css';
 
@@ -10,8 +11,12 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App columns">
-          <SideBar />
-          <div className="column">Content</div>
+          <aside className="sidebar column is-3">
+            <SideBar />
+          </aside>
+          <div className="column">
+            <Map />
+          </div>
         </div>
       </Provider>
     );
