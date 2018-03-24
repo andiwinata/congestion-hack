@@ -1,5 +1,4 @@
 const axios = require('axios');
-const apiResult = require('./sydney_strathfield.json');
 const fs = require('fs');
 const path = require('path');
 
@@ -12,30 +11,61 @@ function randomIntFromInterval(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-const saveURLsObj = apiResult.groups.map(group => {
-  return group.trips.map(trip => ({
-    x: randomIntFromInterval(min, max),
-    y: randomIntFromInterval(min, max),
-    saveURL: trip.saveURL,
-  }));
-});
+// const apiResults = [require('./sydney_strathfield.json')];
+const apiResults = [require('./car.json'), require('./mix_car_public.json'), require('./public_transport.json')];
 
-// flatten the array
-const flatSaveURLsObj = [].concat.apply([], saveURLsObj);
+const getFlatSaveURLsObj = apiResult => {
+  const saveURLsObj = apiResult.groups.map(group => {
+    return group.trips.map(trip => {
+      const cost = trip.moneyCost;
+      const time = (trip.arrive - trip.depart) / 60;
+      const environment = trip.environment;
+      const health = trip.caloriesCost;
+      const yearly = 480;
+
+      return {
+        saveURL: trip.saveURL,
+        cost,
+        costYearly: trip.moneyCost * yearly,
+        time,
+        timeYearly: time * yearly,
+        environment,
+        environmentYearly: environment * yearly,
+        health,
+        healthYearly: health * yearly,
+      };
+    });
+  });
+  // flatten the array
+  const flatSaveURLsObj = [].concat.apply([], saveURLsObj);
+  return flatSaveURLsObj;
+};
 
 // fetch the real trip url
-const fetchTripUrl = async () => {
+const getFinalObject = async flatSaveURLsObj => {
   const promises = flatSaveURLsObj.map(obj => {
     return axios.get(obj.saveURL).then(x => x.data);
   });
 
   const results = await Promise.all(promises);
   const final = results.map((result, i) => {
-    return Object.assign({}, flatSaveURLsObj[i], { url: result.url, name: result.url });
+    return Object.assign({}, flatSaveURLsObj[i], {
+      url: result.url,
+      name: result.url,
+    });
   });
 
+  return final;
+};
+
+const run = async () => {
+  const flatSaveUrlsObjects = apiResults.map(getFlatSaveURLsObj);
+  const finalObjects = await Promise.all(flatSaveUrlsObjects.map(getFinalObject));
+
+  const concatenatedFinal = [].concat.apply([], finalObjects);
+
   // writing the file
-  fs.writeFile(mockFilePath, JSON.stringify(final, null, 2), function(err) {
+  fs.writeFile(mockFilePath, JSON.stringify(concatenatedFinal, null, 2), function(err) {
     if (err) {
       return console.log(err);
     }
@@ -43,4 +73,4 @@ const fetchTripUrl = async () => {
   });
 };
 
-fetchTripUrl();
+run();

@@ -1,0 +1,1659 @@
+{
+  "groups": [
+    {
+      "frequency": 10,
+      "sources": [
+        { "provider": { "name": "Hillsbus" } },
+        {
+          "disclaimer":
+            "\u00a9 OpenStreetMap contributors\n\nMap data available under the Open Database License. For more information, see http://www.openstreetmap.org/copyright.",
+          "provider": { "name": "OpenStreetMap", "website": "https://www.openstreetmap.org" }
+        }
+      ],
+      "trips": [
+        {
+          "arrive": 1521874789,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521871621,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455322987,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/60e2182b-dd87-4bd0-aff5-3946f474950e",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/60e2182b-dd87-4bd0-aff5-3946f474950e",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871800,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521871621
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521873720,
+              "segmentTemplateHashCode": -455322987,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Castle Hill to City QVB",
+              "serviceNumber": "M61",
+              "serviceTripID": "456138",
+              "startTime": 1521871800,
+              "stops": 6,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521874789,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521873720
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/60e2182b-dd87-4bd0-aff5-3946f474950e",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/60e2182b-dd87-4bd0-aff5-3946f474950e?hash=861295517",
+          "weightedScore": 35.9
+        },
+        {
+          "arrive": 1521875389,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521872221,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455322987,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/6fe4a220-8427-4bd0-b028-e294f7bc6a50",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/6fe4a220-8427-4bd0-b028-e294f7bc6a50",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521872400,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521872221
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521874320,
+              "segmentTemplateHashCode": -455322987,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Rouse Hill to City QVB via Lane Cove Tunnel",
+              "serviceNumber": "610X",
+              "serviceTripID": "484446",
+              "startTime": 1521872400,
+              "stops": 6,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521875389,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521874320
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/6fe4a220-8427-4bd0-b028-e294f7bc6a50",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/6fe4a220-8427-4bd0-b028-e294f7bc6a50?hash=-1050893856",
+          "weightedScore": 37.6
+        },
+        {
+          "arrive": 1521869549,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521866419,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455146163,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/f1c71e57-e82c-4469-9a78-81e0326458a8",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/f1c71e57-e82c-4469-9a78-81e0326458a8",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521866598,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521866419
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521868480,
+              "realTime": true,
+              "realtimeVehicle": {
+                "components": [
+                  [
+                    {
+                      "airConditioned": true,
+                      "model": "Scania~K280UB~Volgren~CR228",
+                      "occupancy": "MANY_SEATS_AVAILABLE",
+                      "wheelchairAccessible": true,
+                      "wheelchairSeats": 1,
+                      "wifi": false
+                    }
+                  ]
+                ],
+                "icon": "christmas",
+                "id": "561730",
+                "label": "",
+                "lastUpdate": 1521867191,
+                "location": { "bearing": 98, "lat": -33.76453, "lng": 151.10765 },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -455146163,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Rouse Hill to City QVB",
+              "serviceNumber": "610",
+              "serviceTripID": "561730",
+              "startTime": 1521866598,
+              "stops": 9,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521869549,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521868480
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/f1c71e57-e82c-4469-9a78-81e0326458a8",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/f1c71e57-e82c-4469-9a78-81e0326458a8?hash=2002972059",
+          "weightedScore": 56.9
+        },
+        {
+          "arrive": 1521872989,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521869821,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455322987,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/59c34216-5349-43cd-b7f9-6123771aae36",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/59c34216-5349-43cd-b7f9-6123771aae36",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521870000,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521869821
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871920,
+              "segmentTemplateHashCode": -455322987,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Castle Hill to City QVB",
+              "serviceNumber": "M61",
+              "serviceTripID": "456136",
+              "startTime": 1521870000,
+              "stops": 6,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521872989,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521871920
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/59c34216-5349-43cd-b7f9-6123771aae36",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/59c34216-5349-43cd-b7f9-6123771aae36?hash=878306389",
+          "weightedScore": 30.9
+        },
+        {
+          "arrive": 1521869226,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521866371,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455322987,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/7ba8f58d-c73a-4cd5-8926-14dadeddea46",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/7ba8f58d-c73a-4cd5-8926-14dadeddea46",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521866550,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521866371
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521868157,
+              "realTime": true,
+              "realtimeVehicle": {
+                "components": [
+                  [
+                    {
+                      "airConditioned": true,
+                      "model": "Scania~K230UB~Volgren~CR228",
+                      "occupancy": "MANY_SEATS_AVAILABLE",
+                      "wheelchairAccessible": true,
+                      "wheelchairSeats": 1,
+                      "wifi": false
+                    }
+                  ]
+                ],
+                "icon": "christmas",
+                "id": "456131",
+                "label": "",
+                "lastUpdate": 1521867185,
+                "location": { "bearing": 128, "lat": -33.76656, "lng": 151.11296 },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -455322987,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Castle Hill to City QVB",
+              "serviceNumber": "M61",
+              "serviceTripID": "456131",
+              "startTime": 1521866550,
+              "stops": 6,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521869226,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521868157
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/7ba8f58d-c73a-4cd5-8926-14dadeddea46",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/7ba8f58d-c73a-4cd5-8926-14dadeddea46?hash=1570783855",
+          "weightedScore": 78.8
+        },
+        {
+          "arrive": 1521871189,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521868021,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455322987,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/1c4033b6-9f85-4127-99ca-5451deaaa4b6",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/1c4033b6-9f85-4127-99ca-5451deaaa4b6",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521868200,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521868021
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521870120,
+              "segmentTemplateHashCode": -455322987,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Castle Hill to City QVB",
+              "serviceNumber": "M61",
+              "serviceTripID": "456133",
+              "startTime": 1521868200,
+              "stops": 6,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871189,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521870120
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/1c4033b6-9f85-4127-99ca-5451deaaa4b6",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/1c4033b6-9f85-4127-99ca-5451deaaa4b6?hash=886959043",
+          "weightedScore": 25.9
+        },
+        {
+          "arrive": 1521871262,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521868413,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455322987,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/76472365-bff8-4aa2-8006-df1448bff4c9",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/76472365-bff8-4aa2-8006-df1448bff4c9",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521868592,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521868413
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521870193,
+              "realTime": true,
+              "realtimeVehicle": {
+                "components": [
+                  [
+                    {
+                      "airConditioned": true,
+                      "model": "Scania~K280UB~Volgren~CR228",
+                      "occupancy": "MANY_SEATS_AVAILABLE",
+                      "wheelchairAccessible": true,
+                      "wheelchairSeats": 1,
+                      "wifi": false
+                    }
+                  ]
+                ],
+                "icon": "christmas",
+                "id": "484445",
+                "label": "",
+                "lastUpdate": 1521867193,
+                "location": { "bearing": 78, "lat": -33.70101, "lng": 150.97057 },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -455322987,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Rouse Hill to City QVB via Lane Cove Tunnel",
+              "serviceNumber": "610X",
+              "serviceTripID": "484445",
+              "startTime": 1521868592,
+              "stops": 6,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871262,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521870193
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/76472365-bff8-4aa2-8006-df1448bff4c9",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/76472365-bff8-4aa2-8006-df1448bff4c9?hash=1456514803",
+          "weightedScore": 27.6
+        },
+        {
+          "arrive": 1521874189,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521871021,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455322987,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/633196c9-95ef-4bbb-9236-34394e32673e",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/633196c9-95ef-4bbb-9236-34394e32673e",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871200,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521871021
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521873120,
+              "segmentTemplateHashCode": -455322987,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Castle Hill to City QVB",
+              "serviceNumber": "M61",
+              "serviceTripID": "456137",
+              "startTime": 1521871200,
+              "stops": 6,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521874189,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521873120
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/633196c9-95ef-4bbb-9236-34394e32673e",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/633196c9-95ef-4bbb-9236-34394e32673e?hash=863259936",
+          "weightedScore": 34.2
+        },
+        {
+          "arrive": 1521868485,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521865596,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455322987,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/405c5867-308a-44d0-a4ea-6f338f1cb95e",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/405c5867-308a-44d0-a4ea-6f338f1cb95e",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521865775,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521865596
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521867416,
+              "realTime": true,
+              "realtimeVehicle": {
+                "components": [
+                  [
+                    {
+                      "airConditioned": true,
+                      "model": "Scania~K94UB~Volgren~CR228",
+                      "occupancy": "MANY_SEATS_AVAILABLE",
+                      "wheelchairAccessible": true,
+                      "wheelchairSeats": 1,
+                      "wifi": false
+                    }
+                  ]
+                ],
+                "icon": "christmas",
+                "id": "456130",
+                "label": "",
+                "lastUpdate": 1521867190,
+                "location": { "bearing": 207, "lat": -33.85057, "lng": 151.21182 },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -455322987,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Castle Hill to City QVB",
+              "serviceNumber": "M61",
+              "serviceTripID": "456130",
+              "startTime": 1521865775,
+              "stops": 6,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521868485,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521867416
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/405c5867-308a-44d0-a4ea-6f338f1cb95e",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/405c5867-308a-44d0-a4ea-6f338f1cb95e?hash=-22829307",
+          "weightedScore": 112.1
+        },
+        {
+          "arrive": 1521870589,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521867421,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455322987,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/6d7774be-51f1-4aac-8904-39ced5c46361",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/6d7774be-51f1-4aac-8904-39ced5c46361",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521867600,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521867421
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521869520,
+              "segmentTemplateHashCode": -455322987,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Castle Hill to City QVB",
+              "serviceNumber": "M61",
+              "serviceTripID": "456132",
+              "startTime": 1521867600,
+              "stops": 6,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521870589,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521869520
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/6d7774be-51f1-4aac-8904-39ced5c46361",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/6d7774be-51f1-4aac-8904-39ced5c46361?hash=877123928",
+          "weightedScore": 24.2
+        },
+        {
+          "arrive": 1521872389,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521869221,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455322987,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/da87c3c2-c4fc-47c8-8978-bfc04b4517c3",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/da87c3c2-c4fc-47c8-8978-bfc04b4517c3",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521869400,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521869221
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871320,
+              "segmentTemplateHashCode": -455322987,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Castle Hill to City QVB",
+              "serviceNumber": "M61",
+              "serviceTripID": "456135",
+              "startTime": 1521869400,
+              "stops": 6,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521872389,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521871320
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/da87c3c2-c4fc-47c8-8978-bfc04b4517c3",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/da87c3c2-c4fc-47c8-8978-bfc04b4517c3?hash=878281903",
+          "weightedScore": 29.2
+        },
+        {
+          "arrive": 1521873769,
+          "availability": "AVAILABLE",
+          "caloriesCost": 45,
+          "carbonCost": 1.3,
+          "currencySymbol": "$",
+          "depart": 1521870241,
+          "hassleCost": 2,
+          "mainSegmentHashCode": -455146163,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/d0825b0c-95aa-4a06-a7d7-e9dcc819c409",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/d0825b0c-95aa-4a06-a7d7-e9dcc819c409",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521870420,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521870241
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521872700,
+              "segmentTemplateHashCode": -455146163,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "QVB York St",
+              "serviceName": "Rouse Hill to City QVB",
+              "serviceNumber": "610",
+              "serviceTripID": "561731",
+              "startTime": 1521870420,
+              "stops": 9,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521873769,
+              "segmentTemplateHashCode": 1748729404,
+              "startTime": 1521872700
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/d0825b0c-95aa-4a06-a7d7-e9dcc819c409",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/d0825b0c-95aa-4a06-a7d7-e9dcc819c409?hash=-711086210",
+          "weightedScore": 33.5
+        }
+      ]
+    },
+    {
+      "frequency": 70,
+      "sources": [
+        { "provider": { "name": "Hillsbus" } },
+        {
+          "disclaimer":
+            "\u00a9 OpenStreetMap contributors\n\nMap data available under the Open Database License. For more information, see http://www.openstreetmap.org/copyright.",
+          "provider": { "name": "OpenStreetMap", "website": "https://www.openstreetmap.org" }
+        },
+        { "provider": { "name": "State Transit Sydney" } }
+      ],
+      "trips": [
+        {
+          "arrive": 1521866962,
+          "availability": "AVAILABLE",
+          "caloriesCost": 8,
+          "carbonCost": 1.4,
+          "currencySymbol": "$",
+          "depart": 1521860701,
+          "hassleCost": 8,
+          "mainSegmentHashCode": -1014225519,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/242b0b44-cf91-4aed-9ecb-27fa225b400c",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/242b0b44-cf91-4aed-9ecb-27fa225b400c",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521860880,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521860701
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521862140,
+              "segmentTemplateHashCode": -1014225519,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "Macquarie Park Stn",
+              "serviceName": "Rouse Hill to Macquarie Park via Castle Hill",
+              "serviceNumber": "619",
+              "serviceTripID": "598621",
+              "startTime": 1521860880,
+              "stops": 12,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521862273,
+              "segmentTemplateHashCode": -470938209,
+              "startTime": 1521862140
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521864000,
+              "segmentTemplateHashCode": -1267820237,
+              "startTime": 1521862273
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521866340,
+              "segmentTemplateHashCode": -43950462,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "City The Domain",
+              "serviceName": "Macquarie University to City Domain via East Ryde",
+              "serviceNumber": "506",
+              "serviceTripID": "283971",
+              "startTime": 1521864000,
+              "stops": 46,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521866423,
+              "segmentTemplateHashCode": -1268593377,
+              "startTime": 1521866340
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521866813,
+              "realTime": true,
+              "realtimeVehicle": {
+                "components": [
+                  [
+                    {
+                      "airConditioned": true,
+                      "model": "Volvo~B12BLE~Custom Coaches~CB60EVO2",
+                      "occupancy": "MANY_SEATS_AVAILABLE",
+                      "wheelchairAccessible": true,
+                      "wheelchairSeats": 1,
+                      "wifi": false
+                    }
+                  ]
+                ],
+                "id": "529489",
+                "label": "",
+                "lastUpdate": 1521867187,
+                "location": { "bearing": 154, "lat": -33.88168, "lng": 151.20081 },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -1734737011,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "529489",
+              "startTime": 1521866423,
+              "stops": 3,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521866962,
+              "segmentTemplateHashCode": -836941911,
+              "startTime": 1521866813
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/242b0b44-cf91-4aed-9ecb-27fa225b400c",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/242b0b44-cf91-4aed-9ecb-27fa225b400c?hash=807980890",
+          "weightedScore": 396.4
+        },
+        {
+          "arrive": 1521874349,
+          "availability": "AVAILABLE",
+          "caloriesCost": 8,
+          "carbonCost": 1.4,
+          "currencySymbol": "$",
+          "depart": 1521867982,
+          "hassleCost": 8,
+          "mainSegmentHashCode": -1014225519,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/725f131f-1b34-4a58-8c6d-a51c3d1e2086",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/725f131f-1b34-4a58-8c6d-a51c3d1e2086",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521868161,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521867982
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521869211,
+              "realTime": true,
+              "realtimeVehicle": {
+                "components": [
+                  [
+                    {
+                      "airConditioned": true,
+                      "model": "Scania~K280UB~Volgren~CR228",
+                      "occupancy": "MANY_SEATS_AVAILABLE",
+                      "wheelchairAccessible": true,
+                      "wheelchairSeats": 1,
+                      "wifi": false
+                    }
+                  ]
+                ],
+                "icon": "christmas",
+                "id": "598598",
+                "label": "",
+                "lastUpdate": 1521867190,
+                "location": { "bearing": 126, "lat": -33.72981, "lng": 150.99695 },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -1014225519,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "Macquarie Park Stn",
+              "serviceName": "Rouse Hill to Macquarie Park via Castle Hill",
+              "serviceNumber": "619",
+              "serviceTripID": "598598",
+              "startTime": 1521868161,
+              "stops": 12,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521869344,
+              "segmentTemplateHashCode": -470938209,
+              "startTime": 1521869211
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871200,
+              "segmentTemplateHashCode": -1267820237,
+              "startTime": 1521869344
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521873540,
+              "segmentTemplateHashCode": -43950462,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "City The Domain",
+              "serviceName": "Macquarie University to City Domain via East Ryde",
+              "serviceNumber": "506",
+              "serviceTripID": "283975",
+              "startTime": 1521871200,
+              "stops": 46,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521873840,
+              "segmentTemplateHashCode": -1268593377,
+              "startTime": 1521873540
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521874200,
+              "segmentTemplateHashCode": -1734737011,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "529493",
+              "startTime": 1521873840,
+              "stops": 3,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521874349,
+              "segmentTemplateHashCode": -836941911,
+              "startTime": 1521874200
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/725f131f-1b34-4a58-8c6d-a51c3d1e2086",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/725f131f-1b34-4a58-8c6d-a51c3d1e2086?hash=1650938673",
+          "weightedScore": 36.4
+        },
+        {
+          "arrive": 1521863549,
+          "availability": "AVAILABLE",
+          "caloriesCost": 8,
+          "carbonCost": 1.4,
+          "currencySymbol": "$",
+          "depart": 1521857041,
+          "hassleCost": 8,
+          "mainSegmentHashCode": -1014225519,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/9430d82e-ffdc-4919-9489-56abd23bff31",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/9430d82e-ffdc-4919-9489-56abd23bff31",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521857220,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521857041
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521858480,
+              "segmentTemplateHashCode": -1014225519,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "Macquarie Park Stn",
+              "serviceName": "Rouse Hill to Macquarie Park via Castle Hill",
+              "serviceNumber": "619",
+              "serviceTripID": "598631",
+              "startTime": 1521857220,
+              "stops": 12,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521858613,
+              "segmentTemplateHashCode": -470938209,
+              "startTime": 1521858480
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521860400,
+              "segmentTemplateHashCode": -1267820237,
+              "startTime": 1521858613
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521862740,
+              "segmentTemplateHashCode": -43950462,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "City The Domain",
+              "serviceName": "Macquarie University to City Domain via East Ryde",
+              "serviceNumber": "506",
+              "serviceTripID": "283969",
+              "startTime": 1521860400,
+              "stops": 46,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521863040,
+              "segmentTemplateHashCode": -1268593377,
+              "startTime": 1521862740
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521863400,
+              "segmentTemplateHashCode": -1734737011,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "529487",
+              "startTime": 1521863040,
+              "stops": 3,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521863549,
+              "segmentTemplateHashCode": -836941911,
+              "startTime": 1521863400
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/9430d82e-ffdc-4919-9489-56abd23bff31",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/9430d82e-ffdc-4919-9489-56abd23bff31?hash=688501372",
+          "weightedScore": 599.8
+        },
+        {
+          "arrive": 1521871855,
+          "availability": "AVAILABLE",
+          "caloriesCost": 8,
+          "carbonCost": 1.4,
+          "currencySymbol": "$",
+          "depart": 1521864301,
+          "hassleCost": 8,
+          "mainSegmentHashCode": -1014225519,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/0d7a5262-e851-4e9b-afc4-7be5332b1e89",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/0d7a5262-e851-4e9b-afc4-7be5332b1e89",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521864480,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521864301
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521865680,
+              "segmentTemplateHashCode": -1014225519,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "Macquarie Park Stn",
+              "serviceName": "Rouse Hill to Macquarie Park via Castle Hill",
+              "serviceNumber": "619",
+              "serviceTripID": "598597",
+              "startTime": 1521864480,
+              "stops": 12,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521865813,
+              "segmentTemplateHashCode": -470938209,
+              "startTime": 1521865680
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521867571,
+              "segmentTemplateHashCode": -1267820237,
+              "startTime": 1521865813
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521869511,
+              "realTime": true,
+              "realtimeVehicle": {
+                "components": [
+                  [
+                    {
+                      "airConditioned": true,
+                      "model": "Volvo~B12BLE~Custom Coaches~CB60EVO2",
+                      "occupancy": "MANY_SEATS_AVAILABLE",
+                      "wheelchairAccessible": true,
+                      "wheelchairSeats": 1,
+                      "wifi": false
+                    }
+                  ]
+                ],
+                "icon": "christmas",
+                "id": "283973",
+                "label": "",
+                "lastUpdate": 1521867191,
+                "location": { "bearing": 220, "lat": -33.77665, "lng": 151.11917 },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -43950462,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "City The Domain",
+              "serviceName": "Macquarie University to City Domain via East Ryde",
+              "serviceNumber": "506",
+              "serviceTripID": "283973",
+              "startTime": 1521867571,
+              "stops": 46,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871346,
+              "segmentTemplateHashCode": -1268593377,
+              "startTime": 1521869511
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871706,
+              "realTime": true,
+              "realtimeVehicle": {
+                "components": [
+                  [
+                    {
+                      "airConditioned": true,
+                      "model": "Volvo~B7BLE~Custom Coaches~CB80",
+                      "occupancy": "MANY_SEATS_AVAILABLE",
+                      "wheelchairAccessible": true,
+                      "wheelchairSeats": 1,
+                      "wifi": false
+                    }
+                  ]
+                ],
+                "icon": "christmas",
+                "id": "529491",
+                "label": "",
+                "lastUpdate": 1521867178,
+                "location": { "bearing": 149, "lat": -33.77354, "lng": 151.08289 },
+                "occupancy": "MANY_SEATS_AVAILABLE",
+                "wifi": false
+              },
+              "segmentTemplateHashCode": -1734737011,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "529491",
+              "startTime": 1521871346,
+              "stops": 3,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871855,
+              "segmentTemplateHashCode": -836941911,
+              "startTime": 1521871706
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/0d7a5262-e851-4e9b-afc4-7be5332b1e89",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/0d7a5262-e851-4e9b-afc4-7be5332b1e89?hash=-22789774",
+          "weightedScore": 196.3
+        },
+        {
+          "arrive": 1521879389,
+          "availability": "AVAILABLE",
+          "caloriesCost": 8,
+          "carbonCost": 1.4,
+          "currencySymbol": "$",
+          "depart": 1521871501,
+          "hassleCost": 8,
+          "mainSegmentHashCode": -1014225519,
+          "moneyCost": 4.61,
+          "moneyUSDCost": 3.61,
+          "plannedURL": "https://granduni.buzzhives.com/satapp/trip/planned/32815a2c-c0af-44d6-b3fe-ab2c68788708",
+          "queryIsLeaveAfter": true,
+          "queryTime": 1521867093,
+          "saveURL": "https://granduni.buzzhives.com/satapp/trip/save/32815a2c-c0af-44d6-b3fe-ab2c68788708",
+          "segments": [
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521871680,
+              "segmentTemplateHashCode": 230146057,
+              "startTime": 1521871501
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521872880,
+              "segmentTemplateHashCode": -1014225519,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "Macquarie Park Stn",
+              "serviceName": "Rouse Hill to Macquarie Park via Castle Hill",
+              "serviceNumber": "619",
+              "serviceTripID": "598599",
+              "startTime": 1521871680,
+              "stops": 12,
+              "ticketWebsiteURL": "https://www.opal.com.au/en/fares-and-benefits/",
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521873013,
+              "segmentTemplateHashCode": -470938209,
+              "startTime": 1521872880
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521874920,
+              "segmentTemplateHashCode": -1267820237,
+              "startTime": 1521873013
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521877080,
+              "segmentTemplateHashCode": -43950462,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "City The Domain",
+              "serviceName": "Macquarie University to City Domain via East Ryde",
+              "serviceNumber": "506",
+              "serviceTripID": "283373",
+              "startTime": 1521874920,
+              "stops": 46,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521879000,
+              "segmentTemplateHashCode": -1268593377,
+              "startTime": 1521877080
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521879240,
+              "segmentTemplateHashCode": -1734737011,
+              "serviceColor": { "blue": 239, "green": 181, "red": 0 },
+              "serviceDirection": "Central Station Belmore Park",
+              "serviceName": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
+              "serviceNumber": "501",
+              "serviceTripID": "529512",
+              "startTime": 1521879000,
+              "stops": 3,
+              "wheelchairAccessible": true
+            },
+            {
+              "availability": "AVAILABLE",
+              "endTime": 1521879389,
+              "segmentTemplateHashCode": -836941911,
+              "startTime": 1521879240
+            }
+          ],
+          "temporaryURL": "https://granduni.buzzhives.com/satapp/trip/32815a2c-c0af-44d6-b3fe-ab2c68788708",
+          "updateURL":
+            "https://granduni.buzzhives.com/satapp/trip/update/32815a2c-c0af-44d6-b3fe-ab2c68788708?hash=-1122401637",
+          "weightedScore": 48.3
+        }
+      ]
+    }
+  ],
+  "realTimeStamp": 1521867150,
+  "region": "AU_NSW_Sydney",
+  "regions": ["AU_NSW_Sydney"],
+  "segmentTemplates": [
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "Seven Hills Road",
+        "class": "Location",
+        "lat": -33.76288,
+        "lng": 150.99212,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 230146057,
+      "metres": 239,
+      "mini": { "description": "Windsor Rd at Railway St", "instruction": "Walk", "mainValue": "250m" },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": { "blue": 99, "green": 199, "red": 30 },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 250m",
+      "streets": [{ "encodedWaypoints": "`iamEwsqx[wAn@??[u@a@oAUc@KG?w@??h@o@PSL_@", "metres": 238 }],
+      "to": {
+        "address": "Windsor Rd at Railway St",
+        "class": "Location",
+        "lat": -33.76233,
+        "lng": 150.99355,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 70,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "2000136",
+      "from": {
+        "address": "Windsor Rd at Railway St",
+        "class": "Location",
+        "lat": -33.76233,
+        "lng": 150.99355,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -455322987,
+      "localCost": { "accuracy": "internal_estimate", "cost": 4.61, "currency": "AUD" },
+      "mini": { "description": "<DIRECTION>", "instruction": "Take <NUMBER> ⋅ <PLATFORM>" },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": { "blue": 104, "green": 197, "red": 45 },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅\u00a0Opal (bus) ($4.61)",
+      "operatorID": "2436",
+      "serviceOperator": "Hillsbus",
+      "shapes": [
+        {
+          "encodedWaypoints":
+            "`g_mEcarx[?Rz@@nB@t@DtBL??CL\\Ff@Jb@Ph@Zd@h@lAzA^ZTRh@\\^L^Fr@JjBM??GNHAd@Ch@ItDy@j@Mb@GjAY??@TlBCvDg@??A`@xACtBEb@@TBLB|@mATi@",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints":
+            "reamEu|qx[DJjD_E|@_Ap@mA??`@Mz@aAh@o@d@a@n@c@zAgA`CuB??????FHNKdBmALKv@w@`@YZ[Xo@Do@Ck@ASI{@I{@IcAEiAKeAEkAEi@Ac@OcGOmC}@uMq@mLSoC[uCSaBW_B[_B]}A_@{A_@sABm@Ac@OiAk@iBiAgDkAsCA@????DCcBqESe@[k@k@c@e@oAQm@Kc@EGG[QoAYuBS{BGsACuAAuA?uADsA@k@HwALsAPuA`@{BJi@ZqA`@oA\\iAf@uAh@sAh@{BXsAHk@RwAJ{A@k@@m@ByACeBGmAMwAU{AYuA]yAc@sAWi@Ug@Ue@iAqBsCmE}@}AMWQYq@mAm@mAwAcEg@cB]uAKi@UaAa@uBS{DSiB_@qCk@eD?@????BBIm@WmBa@iC[yA[uAAIQoCc@sI[kJ[uFc@oGoA}MUkB_@cDIq@gCqVCm@Co@E}A?o@DeCBw@D}@Bo@N_CVeBJs@\\cBNm@d@mB`@qAJW~@wBnKcP~@cBv@wAVk@Xi@z@{Bb@mBLo@VeBXkEDcCJiBB_Af@eJJcBPmBXeCT{AT{Ad@gCXaB^aB`@{BnAqH^wBVkBHkAHaA@gAHyD?iB?g@@g^?{EAgAAuA?s@NuBJu@Hi@v@kDjAsEZsAJk@NwAHi@FyADwA?{AAm@EuAGm@WgCwAyL_@oDGm@IwAEk@GyAAyA?yA?}A@}AF}AH{AN{AN}ARwAT{Af@cCl@eCb@yAd@qAz@wBf@mAj@aAn@gAt@_Bz@qAp@uAd@qAb@w@d@u@j@m@j@k@d@_@vDkCv@g@TUXM^OVI|@U`@O\\Q\\Oh@[v@q@p@{@l@cAj@gA`AoC^sAd@sBj@wBNm@f@wAj@oAp@mAfBuCnNoTtBcDrJcOlFmIrAgBXYb@i@fAeAh@c@~@q@hB}@b@Od@Qd@KlA[nASd@Ed@EpACzJIz@@pAIhAGf@Eb@Kr@OrEgAr@UlA[f@MpAWd@GrAM~Gi@zBUh@IfB[VI~@Q^Mx@YpBw@`B}@pBwAz@q@ZYt@u@vCmDj@_Al@aAf@_A^w@d@iAb@oAfBeGp@yBx@kBhDaGRUvEuFpD{FbCoEdC}FvAcFxA}F`@iAl@cAvCsExDcG|CsG`BcEpAeFdA{Ff@cEv@_ItAoLjAwHnBaMjBgK^iC?uAGkCHqN?q@WwDAyAEoAIoA[}CGc@Em@?{@?k@F_AF}@ZyBjByJp@oDf@{CVaBPiBLaBNmCJuCF{CAuCGyCMuBWkDQoAWiCkAoFa@eBScAO_AQkAKkAC}A?kABaAHkAJy@L_ANu@T{@Vw@Xq@\\o@^s@Xc@Zc@PYX[^]ZYd@_@v@k@nGuD~HmEhBeAjBmA`Aq@xAiA~AuA~AyAl@k@lEeDfB}AzAiBr@iAl@aAFMd@}@Zu@V{@Pk@b@oBx@}F`@sB\\_BV{@`@wAd@oArA{B|@mAzA_B`BsAvBqAjAe@b@QfAWdAQj@I`AErA?t@FrAXjBv@nBvArEvDd@XxAx@fAr@nB|@lAd@rBj@|Bf@`ANnBPrG\\dCPr@Ll@Lj@FdCFpBBbA?fAC`AElAInBUd@EpEkAhTqFREZGZG`AO^C\\AZ?^A\\@j@Dj@H^FZF\\JXH\\NVLjw@~a@`DvAfAZl@J|CPl@Hb@J`@JzA`@dAX~@Zb@J`@@^Db@BJALGHKhAALIzAI~CUpBMl@EnBU??GFl@ClACt@EnAIdEWdHm@",
+          "travelled": true
+        }
+      ],
+      "sources": [{ "provider": "Hillsbus" }],
+      "stopCode": "2153226",
+      "to": {
+        "address": "QVB, York St, Stand E",
+        "class": "Location",
+        "lat": -33.87015,
+        "lng": 151.20626,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 116,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "QVB, York St, Stand E",
+        "class": "Location",
+        "lat": -33.87015,
+        "lng": 151.20626,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": 1748729404,
+      "metres": 1125,
+      "mini": { "description": "Pyrmont Street & Pyrmont Bridge Road", "instruction": "Walk", "mainValue": "1.2km" },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": { "blue": 99, "green": 199, "red": 30 },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 1.2km",
+      "streets": [
+        {
+          "encodedWaypoints":
+            "ngvmEcn{y[CJ??@@tBOTED|@??FxAJ|B@LJHBjBBv@?p@@XFRFJBBDBAJUfCo@bA??mBbS??MtACRCPA@EPGRKZCx@??I|A?RTt@r@`B^t@f@jBA???ID",
+          "metres": 1122
+        }
+      ],
+      "to": {
+        "address": "Pyrmont Street & Pyrmont Bridge Road",
+        "class": "Location",
+        "lat": -33.87067,
+        "lng": 151.19567,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 245,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "2000136",
+      "from": {
+        "address": "Windsor Rd at Railway St",
+        "class": "Location",
+        "lat": -33.76233,
+        "lng": 150.99355,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -455146163,
+      "localCost": { "accuracy": "internal_estimate", "cost": 4.61, "currency": "AUD" },
+      "mini": { "description": "<DIRECTION>", "instruction": "Take <NUMBER> ⋅ <PLATFORM>" },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": { "blue": 104, "green": 197, "red": 45 },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅\u00a0Opal (bus) ($4.61)",
+      "operatorID": "2436",
+      "serviceOperator": "Hillsbus",
+      "shapes": [
+        {
+          "encodedWaypoints":
+            "`g_mEcarx[?Rz@@nB@t@DtBL??CL\\Ff@Jb@Ph@Zd@h@lAzA^ZTRh@\\^L^Fr@JjBM??GNHAd@Ch@ItDy@j@Mb@GjAY??@TlBCvDg@??A`@xACtBEb@@TBLB|@mATi@",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints":
+            "reamEu|qx[DJjD_E|@_Ap@mA??`@Mz@aAh@o@d@a@n@c@zAgA`CuB??????FHNKdBmALKv@w@`@YZ[Xo@Do@Ck@ASI{@I{@IcAEiAKeAEkAEi@Ac@OcGOmC}@uMq@mLSoC[uCSaBW_B[_B]}A_@{A_@sABm@Ac@OiAk@iBiAgDkAsCA@????DCcBqESe@[k@k@c@e@oAQm@Kc@EGG[QoAYuBS{BGsACuAAuA?uADsA@k@HwALsAPuA`@{BJi@ZqA`@oA\\iAf@uAh@sAh@{BXsAHk@RwAJ{A@k@@m@ByACeBGmAMwAU{AYuA]yAc@sAWi@Ug@Ue@iAqBsCmE}@}AMWQYq@mAm@mAwAcEg@cB]uAKi@UaAa@uBS{DSiB_@qCk@eD?@????BBIm@WmBa@iC[yA[uAAIQoCc@sI[kJ[uFc@oGoA}MUkB_@cDIq@gCqVCm@Co@E}A?o@DeCBw@D}@Bo@N_CVeBJs@\\cBNm@d@mB`@qAJW~@wBnKcP~@cBv@wAVk@Xi@z@{Bb@mBLo@VeBXkEDcCJiBB_Af@eJJcBPmBXeCT{AT{Ad@gCXaB^aB`@{BnAqH^wBVkBHkAHaA@gAHyD?iB?g@@g^?{EAgAAuA?s@NuBJu@Hi@v@kDjAsEZsAJk@NwAHi@FyADwA?{AAm@EuAGm@WgCwAyL_@oDGm@IwAEk@GyAAyA?yA?}A@}AF}AH{AN{AN}ARwAT{Af@cCl@eCb@yAd@qAz@wBf@mAj@aAn@gAt@_Bz@qAp@uAd@qAb@w@d@u@j@m@j@k@d@_@vDkCv@g@TUXM^OVI|@U`@O\\Q\\Oh@[v@q@p@{@l@cAj@gA`AoC^sAd@sBj@wBNm@f@wAj@oAp@mAfBuCnNoTtBcDrJcOlFmIrAgBXYb@i@fAeAh@c@~@q@hB}@b@Od@Qd@KlA[nASd@Ed@EpACzJIz@@pAIhAGf@Eb@Kr@OzAe@t@Uv@Sv@Wt@Ur@WTI\\Iv@Sv@Sz@Kz@Iz@Iz@Gv@Gx@GtAMpB[LZAxA?r@Ft@Hh@NPNNHHJ@RErD}Ej@aArBmCbAmA^k@TWFGl@y@^a@b@a@FKNQPm@??HJHIl@y@h@w@V]d@s@b@s@`@u@d@cA`@_Ab@gAb@mAr@wBzAgEb@gA`D{Ff@y@j@o@l@c@nAg@hBg@dAWrAi@\\Ud@Yf@e@Z_@j@cATk@\\oANw@Fu@F_A@WF_BLmDPkBXwBVkA|@qCh@kALw@??LLt@mA^i@r@u@n@k@vBqAxAaAhBaAr@o@`@o@l@y@Xy@Vw@Hk@L_AdBiS\\oE\\kDTcC`@cDB[x@cFvAkMZsBp@qD^mBv@uDVuAH_A[mC??RAQmCAgFTkBBcCAqBG{BIeBE_BM_AOgA[yAGc@Cm@Ay@@m@BaAJ{@XwBjB{Jp@oDf@}CT_BPkBN_BNkCHuCJ{CAwCKwCKwBWkDSoAWiCiAoFc@eBQcAQ_AOkAKkAE}A@kA@cAJiAJy@L_ALw@Vw@Vy@Xq@\\o@`@s@Va@Xe@RYZY^_@XYb@]x@m@nGuD~HmEfBeAlBmA`Aq@zAiA|AwA~AwAj@k@nEgDdByAzAiBt@kAj@aAHKd@_AXu@Zy@Nm@b@oBx@}F`@sB\\_BV{@`@wAf@oApA{B|@mAxA_BdBsArBqAlAe@b@SfAWbAOj@K`ACtA?t@DrAXjBx@nBvArEvDf@VvA|@fAp@nB|@lAd@rBh@|Bh@~@PnBNtG\\fCPr@Lh@Lj@FfCFpBBbA?dAC`AElAInBWf@CrEkAhTqFPGZEZG`AO\\C^AZ?\\A^Bh@Bn@H\\F\\FZJZHXNXLlw@`b@~CrAfA\\n@J|CPj@Hb@J`@LzA^fAV|@\\b@J`@B\\Bb@@JANCJMhACJEzAM`DQnBOn@ClBW??GFl@ClACt@EnAIdEWdHm@",
+          "travelled": true
+        }
+      ],
+      "sources": [{ "provider": "Hillsbus" }],
+      "stopCode": "2153226",
+      "to": {
+        "address": "QVB, York St, Stand E",
+        "class": "Location",
+        "lat": -33.87015,
+        "lng": 151.20626,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 116,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "2113187",
+      "from": {
+        "address": "Windsor Rd at Railway St",
+        "class": "Location",
+        "lat": -33.76233,
+        "lng": 150.99355,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -1014225519,
+      "localCost": { "accuracy": "internal_estimate", "cost": 4.61, "currency": "AUD" },
+      "mini": { "description": "<DIRECTION>", "instruction": "Take <NUMBER> ⋅ <PLATFORM>" },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": { "blue": 104, "green": 197, "red": 45 },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS> ⋅\u00a0Opal (bus) ($4.61)",
+      "operatorID": "2436",
+      "serviceOperator": "Hillsbus",
+      "shapes": [
+        {
+          "encodedWaypoints":
+            "`g_mEcarx[?Rz@@nB@t@DtBL??CL\\Ff@Jb@Ph@Zd@h@lAzA^ZTRh@\\^L^Fr@JjBM??GNHAd@Ch@ItDy@j@Mb@GjAY??@TlBCvDg@??A`@xACtBEb@@TBLB|@mATi@",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints":
+            "reamEu|qx[DJjD_E|@_Ap@mA??`@Mz@aAh@o@d@a@n@c@zAgA`CuB??????FHNKdBmALKv@w@`@YZ[Xo@Do@Ck@ASI{@I{@IcAEiAKeAEkAEi@Ac@OcGOmC}@uMq@mLSoC[uCSaBW_B[_B]}A_@{A_@sABm@Ac@OiAk@iBiAgDkAsCA@????DCcBqESe@[k@k@c@e@oAQm@Kc@EGG[QoAYuBS{BGsACuAAuA?uADsA@k@HwALsAPuA`@{BJi@ZqA`@oA\\iAf@uAh@sAh@{BXsAHk@RwAJ{A@k@@m@ByACeBGmAMwAU{AYuA]yAc@sAWi@Ug@Ue@iAqBsCmE}@}AMWQYq@mAm@mAwAcEg@cB]uAKi@UaAa@uBS{DSiB_@qCk@eD?@????BBIm@WmBa@iC[yA[uAAIQoCc@sI[kJ[uFc@oGoA}MUkB_@cDIq@gCqVCm@Co@E}A?o@DeCBw@D}@Bo@N_CVeBJs@\\cBNm@d@mB`@qAJW~@wBnKcP~@cBv@wAVk@Xi@z@{Bb@mBLo@VeBXkEDcCJiBB_Af@eJJcBPmBXeCT{AT{Ad@gCXaB^aB`@{BnAqH^wBVkBHkAHaA@gAHyD?iB?g@@g^?{EAgAAuA?s@NuBJu@Hi@v@kDjAsEZsAJk@NwAHi@FyADwA?{AAm@EuAGm@WgCwAyL_@oDGm@IwAEk@GyAAyA?yA?}A@}AF}AH{AN{AN}ARwAT{Af@cCl@eCb@yAd@qAz@wBf@mAj@aAn@gAt@_Bz@qAp@uAd@qAb@w@d@u@j@m@j@k@d@_@vDkCv@g@TUXM^Ov@_@j@Sf@Wf@Yj@o@b@g@b@u@`@m@\\o@Tg@\\o@hDpDHG|BaF??????TVpDqFP_@LJTBVPZ\\nA|AnC|CtB`CdAhA`AiB??????DF|BuD??????DDR[p@cA`B_D??????JJt@gAPQJKFOHO?MFIFEV[xBcDPOPOHQJW?MFIHC^aA?@????HFnKsP??????JHzA{BtC}E?A????JN~A}BVSp@gB?@",
+          "travelled": true
+        }
+      ],
+      "sources": [{ "provider": "Hillsbus" }],
+      "stopCode": "2153226",
+      "to": {
+        "address": "Waterloo Rd after Lane Cove Rd",
+        "class": "Location",
+        "lat": -33.78545,
+        "lng": 151.12903,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 99,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "Waterloo Rd after Lane Cove Rd",
+        "class": "Location",
+        "lat": -33.78545,
+        "lng": 151.12903,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -470938209,
+      "metres": 154,
+      "mini": { "description": "Lane Cove Rd after Waterloo Rd", "instruction": "Walk", "mainValue": "200m" },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": { "blue": 99, "green": 199, "red": 30 },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 200m",
+      "streets": [{ "encodedWaypoints": "`vemEkkly[?C@?i@v@KNG@KJ^`@??rAtANO", "metres": 153 }],
+      "to": {
+        "address": "Lane Cove Rd after Waterloo Rd",
+        "class": "Location",
+        "lat": -33.78574,
+        "lng": 151.1281,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 252,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Wait ",
+      "hashCode": -1267820237,
+      "location": {
+        "address": "Lane Cove Rd after Waterloo Rd",
+        "class": "Location",
+        "lat": -33.78574,
+        "lng": 151.1281,
+        "timezone": "Australia/Sydney"
+      },
+      "mini": { "instruction": "Wait", "mainValue": "<DURATION>" },
+      "modeInfo": { "alt": "Transfer", "localIcon": "transfer" },
+      "notes": "<DURATION>",
+      "type": "stationary",
+      "visibility": "in details"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "203916",
+      "from": {
+        "address": "Lane Cove Rd after Waterloo Rd",
+        "class": "Location",
+        "lat": -33.78574,
+        "lng": 151.1281,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -43950462,
+      "mini": { "description": "<DIRECTION>", "instruction": "Take <NUMBER> ⋅ <PLATFORM>" },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": { "blue": 104, "green": 197, "red": 45 },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS>",
+      "operatorID": "2439",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints": "bvdmEgiky[JMiDwC??X?wFyFl@cB??FX`EiGrFsJ??DPdH}KPWlCzChAn@??INnIpIlBrA??",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints":
+            "|wemEqely[??GX|AbBbDtDrB|BZ\\fAfAlCxCpB`B??????GR`@b@p@t@~HbJx@x@fErEzB~Bz@cB??JFdCiE??DTh@s@`B{Bb@o@~CgF??DLtC_E|@iB??BNb@k@hBoClByCn@_A~@uAbAsB???PbD}EpDeG???VV_@CK?MHGHAHBBH?LzBhCzB`CjD|C??S@HHvAzAbGxF??IHhAhAHCH@xG{Jj@eA??BBpB_D`@i@@a@??FNLOJKJGJGLGPGLAREPERKJIHELQrBqD???PDE^o@nAkBHOTg@JWHYwA}@??LOe@g@CNGRo@`A{GhKQL?RJJf@b@??ENLPKHMFMFIJMNKP]h@gClE??KAQTgD~F??IIaBfCDH?LvGtG??c@Mf@f@nBpBv@|@`A`A|@`@??KRdAfAjCvB??CT|@~@mAhBDJAJd@L|AX`AMl@Q`Au@??FPvFyBhBKfCDd@Mb@MVMr@[t@YtAxAFGJ?^iA??JB`DcHhD_D??FLvGmFd@sB??BNjAsDRm@PeH\\uA??HBzB_GFm@??FHnAcDdAsD??L?Pc@pAkDN]lBgFBKPkA??LFhA{CGE?M@KJGH@fAoD??JDL]GE?MBKFEJ?`BeEGI?KBKFGJ@lAaE??LBBKEK@KBKJCF@FH?JvLbH??MHb@T|BcAt@]v@m@NK`C}B??FJRMr@k@fIkHXWVWd@w@??FLn@i@lD_DlFuF??^?POTWJYBc@@uB??N@LeBh@}An@iBfAVhBl@nEpAvBFxACfEB`AExAWxAk@t@e@f@]fBeBfYaWhA}@r@i@x@c@hFuC\\i@??NNh@[|FeD??@H`Ag@dFgCv@g@fAuA?A????JH|@{@pIkI??????_@j@b@]pKiK??????HFl@k@rBkBrBmBr@cA??????DJz@mA??????FHLKhAiAjBoBjMyN`CwC\\u@Tm@v@_CFUfAkDNkA@?????HJXy@Vw@`@w@x@yAXgA?@????LBb@w@vDgHv@cB??????JBrAoBr@gAZw@A?????FHz@oArAmB^}@FWD]FgAF_@RiARs@f@}@p@cAl@w@`C}A^g@??",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints":
+            "lxumEiquy[??VFrDy@RSJW@O?YAWEWiEcPIo@Ck@Au@Bu@Fq@Jw@Nu@j@}C|@eF`AsFdCcObA_Gb@}Ap@uBl@cBb@kAR}@B]DYFcADgAJ{@Pw@Vs@\\u@^k@l@q@l@e@zB}AfE{CbAg@zAeAz@eAZaAL}@Di@?_@Ea@Gg@cBqKs@cHSkEGIKkAM[KIQCeBsFm@wCSg@Ig@??????FOGwAEeAAu@?U?e@@e@De@BU?QTiADGBOB{C??????J@Bu@VsELoCTwF??????N@De@`@wFBQDi@Cu@@?????J@TaCFi@V}A^yDa@Em@Ks@AA?",
+          "travelled": false
+        }
+      ],
+      "sources": [{ "provider": "State Transit Sydney" }],
+      "stopCode": "2113202",
+      "to": {
+        "address": "Victoria Rd opp Hornsey St",
+        "class": "Location",
+        "lat": -33.86774,
+        "lng": 151.17606,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 149,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Wait ",
+      "hashCode": -1268593377,
+      "location": {
+        "address": "Victoria Rd opp Hornsey St",
+        "class": "Location",
+        "lat": -33.86774,
+        "lng": 151.17606,
+        "timezone": "Australia/Sydney"
+      },
+      "mini": { "instruction": "Wait", "mainValue": "<DURATION>" },
+      "modeInfo": { "alt": "Transfer", "localIcon": "transfer" },
+      "notes": "<DURATION>",
+      "type": "stationary",
+      "visibility": "in details"
+    },
+    {
+      "action": "<TIME>: Take <NUMBER>",
+      "endStopCode": "200916",
+      "from": {
+        "address": "Victoria Rd opp Hornsey St",
+        "class": "Location",
+        "lat": -33.86774,
+        "lng": 151.17606,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -1734737011,
+      "mini": { "description": "<DIRECTION>", "instruction": "Take <NUMBER> ⋅ <PLATFORM>" },
+      "modeIdentifier": "pt_pub",
+      "modeInfo": {
+        "alt": "Bus",
+        "color": { "blue": 104, "green": 197, "red": 45 },
+        "identifier": "pt_pub_bus",
+        "localIcon": "bus"
+      },
+      "notes": "<LINE_NAME>\n<DIRECTION>\n<PLATFORM>\n<DURATION> ⋅ <STOPS>",
+      "operatorID": "2439",
+      "serviceOperator": "State Transit Sydney",
+      "shapes": [
+        {
+          "encodedWaypoints":
+            "zssmEqmry[??FHLKhAiAjBoBjMyN`CwC\\u@Tm@v@_CFUfAkDNkA@?????HJXy@Vw@`@w@x@yAXgA?@????LBb@w@vDgHv@cB??????JBrAoBr@gAZw@A?????FHz@oArAmB^}@FWD]FgAF_@RiARs@f@}@p@cAl@w@`C}A^g@??",
+          "travelled": false
+        },
+        {
+          "encodedWaypoints":
+            "lxumEiquy[??VFrDy@RSJW@O?YAWEWiEcPIo@Ck@Au@Bu@Fq@Jw@Nu@j@}C|@eF`AsFdCcObA_Gb@}Ap@uBl@cB?KZkARkAH{@@u@sAqA??vATHw@Ns@Rs@Xw@^s@f@q@XSRGVEPCHFu@v@i@j@[`@[f@Sh@c@tAk@tACT[SKKU{@I[e@aB_@uAKW_@o@??JGK]]mApGsD",
+          "travelled": true
+        },
+        {
+          "encodedWaypoints": "fmvmEufyy[BLx@_@d@OrHaE??DJx@_@xGcDZQhA{@??DNhEwBNKfA{@??DNxCwAj@YfFyC??JLt@_@bGiD",
+          "travelled": false
+        }
+      ],
+      "sources": [{ "provider": "State Transit Sydney" }],
+      "stopCode": "203916",
+      "to": {
+        "address": "Harris St at Pyrmont Bridge Rd",
+        "class": "Location",
+        "lat": -33.87108,
+        "lng": 151.19483,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 100,
+      "type": "scheduled",
+      "visibility": "in summary"
+    },
+    {
+      "action": "<TIME>: Walk",
+      "from": {
+        "address": "Harris St at Pyrmont Bridge Rd",
+        "class": "Location",
+        "lat": -33.87108,
+        "lng": 151.19483,
+        "timezone": "Australia/Sydney"
+      },
+      "hashCode": -836941911,
+      "metres": 160,
+      "mini": { "description": "Pyrmont Street & Pyrmont Bridge Road", "instruction": "Walk", "mainValue": "200m" },
+      "modeIdentifier": "wa_wal",
+      "modeInfo": {
+        "alt": "Walk",
+        "color": { "blue": 99, "green": 199, "red": 30 },
+        "identifier": "wa_wal",
+        "localIcon": "walk"
+      },
+      "notes": "<DURATION> ⋅ 200m",
+      "streets": [{ "encodedWaypoints": "fmvmEufyy[FN??|@c@??uA}@w@{A??ID", "metres": 159 }],
+      "to": {
+        "address": "Pyrmont Street & Pyrmont Bridge Road",
+        "class": "Location",
+        "lat": -33.87067,
+        "lng": 151.19567,
+        "timezone": "Australia/Sydney"
+      },
+      "travelDirection": 65,
+      "type": "unscheduled",
+      "visibility": "in summary"
+    }
+  ]
+}

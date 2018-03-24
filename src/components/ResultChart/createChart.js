@@ -15,6 +15,9 @@ const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick
         enabled: true,
         text: xAxisText,
       },
+      tickInterval: 1,
+      minPadding: 0,
+      maxPadding: 0,
       startOnTick: true,
       endOnTick: true,
       showLastLabel: true,
@@ -23,16 +26,6 @@ const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick
       title: {
         text: yAxisText,
       },
-    },
-    legend: {
-      layout: 'vertical',
-      align: 'left',
-      verticalAlign: 'top',
-      x: 100,
-      y: 70,
-      floating: true,
-      backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
-      borderWidth: 1,
     },
     plotOptions: {
       scatter: {
@@ -54,7 +47,7 @@ const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick
         },
         tooltip: {
           headerFormat: '<b>{series.name}</b><br>',
-          pointFormat: '{point.x}, {point.y}',
+          pointFormat: `${xAxisText}: {point.x}, ${yAxisText}: {point.y}`,
         },
       },
       series: {

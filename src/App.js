@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App columns">
-          <aside className="sidebar column is-2">
+          <aside className="sidebar column is-3">
             <SideBar />
           </aside>
           <div className="column mapWrapper">
