@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { compose } from 'recompose';
-import { addOrReplaceURLParam } from 'containers/utils/URL';
 import './Map.css';
 
 const Map = ({ mapUrl }) => {
