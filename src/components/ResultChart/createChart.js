@@ -1,18 +1,20 @@
 import Highcharts from 'highcharts';
+import { COST, TIME, ENVIRONMENT, HEALTH } from 'containers/Trip/constants';
+import { capitalizeFirstLetter } from 'containers/utils/utils';
 
-const addUnitLabel = (keyName) => {
+const addUnitLabel = keyName => {
   const lowerKeyName = keyName.toLowerCase();
   switch (lowerKeyName) {
-    case 'cost':
-      return `${keyName} (AUD)`;
-    case 'time':
-      return `${keyName} (mins)`;
-    case 'environment':
-      return `${keyName} (gr of CO2)`;
-    case 'health':
-      return `${keyName} (cal)`;
+    case COST:
+      return `${capitalizeFirstLetter(keyName)} (AUD)`;
+    case TIME:
+      return `${capitalizeFirstLetter(keyName)} (mins)`;
+    case ENVIRONMENT:
+      return `${capitalizeFirstLetter(keyName)} (gr of CO2)`;
+    case HEALTH:
+      return `${capitalizeFirstLetter(keyName)} (cal)`;
     default:
-      return keyName;
+      return capitalizeFirstLetter(keyName);
   }
 };
 
@@ -20,20 +22,51 @@ const addUnitLabel = (keyName) => {
 const addPrefixSuffix = (text, keyName) => {
   const lowerKeyName = keyName.toLowerCase();
   switch (lowerKeyName) {
-    case 'cost':
-      return `${keyName}: $${text}`;
-    case 'time':
-      return `${keyName}: ${text} mins`;
-    case 'environment':
-      return `${keyName}: ${text} gr CO2`;
-    case 'health':
-      return `${keyName}: ${text} cal`;
+    case COST:
+      return `${capitalizeFirstLetter(keyName)}: $${text}`;
+    case TIME:
+      return `${capitalizeFirstLetter(keyName)}: ${text} mins`;
+    case ENVIRONMENT:
+      return `${capitalizeFirstLetter(keyName)}: ${text} gr CO2`;
+    case HEALTH:
+      return `${capitalizeFirstLetter(keyName)}: ${text} cal`;
     default:
-      return `${keyName}: ${text}`;
+      return `${capitalizeFirstLetter(keyName)}: ${text}`;
   }
 };
 
-const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick }) => {
+const createXAxis = xAxisText => ({
+  title: {
+    enabled: true,
+    text: addUnitLabel(xAxisText),
+  },
+  tickInterval: 1,
+  minPadding: 0,
+  maxPadding: 0,
+  startOnTick: true,
+  endOnTick: true,
+  showLastLabel: true,
+});
+
+const createTooltipPointFormat = (xAxisText, yAxisText) =>
+  `${addPrefixSuffix('{point.x}', xAxisText)}, ${addPrefixSuffix('{point.y}', yAxisText)}`;
+
+export const updateChart = ({ chart, xAxisText, yAxisText, data }) => {
+  try {
+    chart.xAxis[0].update(createXAxis(xAxisText), false);
+    chart.yAxis[0].update(createXAxis(yAxisText), false);
+    chart.series[0].setData(data, false);
+    chart.update({
+      plotOptions: {
+        scatter: { tooltip: { pointFormat: createTooltipPointFormat(xAxisText, yAxisText) } },
+      },
+    });
+  } catch (e) {
+    console.log('ERROR', e);
+  }
+};
+
+export const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick }) => {
   return Highcharts.chart(elementTarget, {
     chart: {
       type: 'scatter',
@@ -43,18 +76,7 @@ const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick
     title: {
       text: 'Trip chart',
     },
-    xAxis: {
-      title: {
-        enabled: true,
-        text: addUnitLabel(xAxisText),
-      },
-      tickInterval: 1,
-      minPadding: 0,
-      maxPadding: 0,
-      startOnTick: true,
-      endOnTick: true,
-      showLastLabel: true,
-    },
+    xAxis: createXAxis(xAxisText),
     yAxis: {
       title: {
         text: addUnitLabel(yAxisText),
@@ -80,7 +102,7 @@ const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick
         },
         tooltip: {
           headerFormat: '<b>{series.name}</b><br>',
-          pointFormat: `${addPrefixSuffix('{point.x}', xAxisText)}, ${addPrefixSuffix('{point.y}', yAxisText)}`,
+          pointFormat: createTooltipPointFormat(xAxisText, yAxisText),
         },
       },
       series: {
@@ -99,5 +121,3 @@ const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointerOnClick
     ],
   });
 };
-
-export default createChart;

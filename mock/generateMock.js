@@ -19,7 +19,7 @@ const getFlatSaveURLsObj = apiResult => {
     return group.trips.map(trip => {
       const cost = trip.moneyCost;
       const time = Math.round((trip.arrive - trip.depart) / 60);
-      const environment = trip.environment;
+      const environment = trip.carbonCost;
       const health = trip.caloriesCost;
       const yearly = 480;
 

@@ -3,12 +3,8 @@ import { connect } from 'react-redux';
 import { compose, branch, renderComponent } from 'recompose';
 import { setMapUrl } from 'containers/Map/actions';
 import mockData from 'mockResult/mock.json';
-import createChart from './createChart';
+import { createChart, updateChart } from './createChart';
 import './ResultChart.css';
-
-function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
-}
 
 const appendXY = (mockData, xKey, yKey) => {
   return mockData.map(data => {
@@ -23,15 +19,22 @@ const appendXY = (mockData, xKey, yKey) => {
 class ResultChart extends React.Component {
   componentDidMount() {
     const { xAxisText, yAxisText } = this.props;
-    const appendedMockData = appendXY(mockData, xAxisText, yAxisText);
+    const appendedXYMockData = appendXY(mockData, xAxisText, yAxisText);
 
     this.chart = createChart({
       elementTarget: 'chartContainer',
-      xAxisText: capitalizeFirstLetter(xAxisText),
-      yAxisText: capitalizeFirstLetter(yAxisText),
-      data: appendedMockData,
+      xAxisText,
+      yAxisText,
+      data: appendedXYMockData,
       pointerOnClick: this.pointerOnClick,
     });
+  }
+
+  componentDidUpdate(prevProps) {
+    const { xAxisText, yAxisText } = this.props;
+    const appendedXYMockData = appendXY(mockData, xAxisText, yAxisText);
+
+    updateChart({ chart: this.chart, xAxisText, yAxisText, data: appendedXYMockData });
   }
 
   pointerOnClick = event => {
@@ -61,6 +64,8 @@ const mapStateToProps = ({ trip }) => {
   return {
     from: trip.from,
     to: trip.to,
+    xAxisText: trip.option1,
+    yAxisText: trip.option2,
   };
 };
 
@@ -68,13 +73,9 @@ const mapDispatchToProps = {
   setMapUrl,
 };
 
-ResultChart.defaultProps = {
-  xAxisText: 'cost',
-  yAxisText: 'time',
-};
-
 const enhance = compose(
   connect(mapStateToProps, mapDispatchToProps),
-  branch(({ from, to }) => !(from && to), renderComponent(() => null))
+  branch(({ from, to, xAxisText, yAxisText }) => !(from && to && xAxisText && yAxisText), renderComponent(() => null))
 );
+
 export default enhance(ResultChart);
