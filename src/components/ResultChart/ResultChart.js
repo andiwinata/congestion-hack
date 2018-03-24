@@ -1,8 +1,18 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { compose, branch, renderComponent } from 'recompose';
+import createChart from './createChart';
 import './ResultChart.css';
 
-class ReactChart extends React.Component {
+class ResultChart extends React.Component {
+  componentDidMount() {
+    this.chart = createChart('chartContainer');
+  }
+
+  componentWillUnmount() {
+    this.chart.destroy();
+  }
+
   render() {
     const { from, to } = this.props;
 
@@ -10,7 +20,11 @@ class ReactChart extends React.Component {
       return null;
     }
 
-    return <div className="resultChartWrapper">This is chart</div>;
+    return (
+      <div id="chartContainer" className="resultChartWrapper">
+        This is chart
+      </div>
+    );
   }
 }
 
@@ -21,4 +35,6 @@ const mapStateToProps = ({ trip }) => {
   };
 };
 
-export default connect(mapStateToProps)(ReactChart);
+const enhance = compose(connect(mapStateToProps), branch(({ from, to }) => !(from && to), renderComponent(() => null)));
+
+export default enhance(ResultChart);
