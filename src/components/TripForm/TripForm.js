@@ -21,16 +21,21 @@ const TripForm = ({ tripRequested, option1, option2, setOption1, setOption2 }) =
           <span className="visuallyHidden">To</span>
           <Text className="input" field="to" placeholder="To" />
         </label>
+        <label>
+          <span className="visuallyHidden">Stop by</span>
+          <Text className="input" field="stopBy" placeholder="Stop by (optional)" />
+        </label>
+        <span className="optionsTitle">Preferred options:</span>
         <Select
           className="selectWrapper"
-          name="form-field-name"
+          name="form-option-1"
           value={option1}
           options={selectOptions}
           onChange={setOption1}
         />
         <Select
           className="selectWrapper"
-          name="form-field-name"
+          name="form-option-2"
           value={option2}
           options={selectOptions}
           onChange={setOption2}

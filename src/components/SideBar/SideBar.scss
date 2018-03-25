@@ -1,7 +1,41 @@
 .yearlyInfoWrapper {
-  background: #23d160;
+  // background: #23d160;
+  background: #000;
   margin-left: -24px;
-  margin-right: -16px;
+  margin-right: -24px;
   color: #fff;
   padding: 16px;
+}
+
+.knowMore {
+  margin-top: 24px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.yearlyHeading {
+  color: #23d160;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.sideBarList {
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    width: 50%;
+    font-weight: bold;
+    line-height: 50px;
+    position: relative;
+    padding-left: 16px;
+
+    &:before {
+      position: absolute;
+      content: '';
+      border-left: 3px solid #23d160;
+      top: 10px;
+      left: 0;
+      height: 30px;
+    }
+  }
 }

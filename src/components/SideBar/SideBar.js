@@ -17,13 +17,15 @@ const getYearlyCost = mapUrl => {
   }
   return (
     <div className="yearlyInfoWrapper is-primary">
-      <h4>Each year, you will consume in total:</h4>
-      <ul>
-        <li>Money: ${trip.costYearly}</li>
-        <li>Time: {(trip.timeYearly / 1440).toFixed(1)} days</li>
-        <li>CO2: {trip.environmentYearly} grams</li>
-        <li>Calories: {trip.healthYearly} calories</li>
+      <h2 className="yearlyHeading">Did you know?</h2>
+      <p>For selected trip, you will consume (yearly):</p>
+      <ul className="sideBarList">
+        <li>$ {trip.costYearly}</li>
+        <li>{(trip.timeYearly / 1440).toFixed(1)} days</li>
+        <li>{trip.environmentYearly} grams of CO2</li>
+        <li>{trip.healthYearly} calories</li>
       </ul>
+      <button class="button is-success is-fullwidth knowMore">Want to know more?</button>
     </div>
   );
 };

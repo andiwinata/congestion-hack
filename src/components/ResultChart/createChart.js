@@ -41,6 +41,7 @@ const createAxis = xAxisText => ({
     text: addUnitLabel(xAxisText),
     style: {
       fontSize: '16px',
+      fontWeight: 'bold',
     },
   },
   tickInterval: 1,
@@ -51,7 +52,7 @@ const createAxis = xAxisText => ({
   showLastLabel: true,
   labels: {
     style: {
-      fontSize: '16px',
+      fontSize: '12px',
     },
   },
 });
@@ -96,6 +97,7 @@ export const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointer
               lineColor: 'rgb(100,100,100)',
             },
           },
+          fillColor: 'rgba(35,209,96, 0.5)',
         },
         states: {
           hover: {
@@ -118,7 +120,7 @@ export const createChart = ({ elementTarget, xAxisText, yAxisText, data, pointer
     },
     series: [
       {
-        name: 'Trips',
+        name: 'Trip',
         color: 'rgba(119, 152, 191, .5)',
         data,
       },
