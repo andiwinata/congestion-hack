@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { compose } from 'recompose';
 import TripForm from 'components/TripForm/TripForm';
 import ResultChart from 'components/ResultChart/ResultChart';
@@ -25,7 +26,7 @@ const getYearlyCost = mapUrl => {
         <li>{trip.environmentYearly} kgs of CO2</li>
         <li>{trip.healthYearly} calories</li>
       </ul>
-      <button class="button is-success is-fullwidth knowMore">Want to know more?</button>
+      <Link to="/second" className="button is-success is-fullwidth knowMore">Want to know more?</Link>
     </div>
   );
 };
