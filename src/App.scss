@@ -3,11 +3,11 @@
 }
 
 .sidebar {
-  // padding: 16px;
   background: #fff;
-  padding: 32px 24px 24px 36px;
+  padding: 32px 24px 0px 36px;
   min-height: 25%;
   max-height: 100vh;
+  overflow-y: scroll;
 }
 
 .mapWrapper {
