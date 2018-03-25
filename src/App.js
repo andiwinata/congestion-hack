@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import CarCostChart from 'components/CarCostChart/CarCostChart'
 import SideBar from 'components/SideBar/SideBar';
 import Map from 'components/Map/Map';
@@ -31,12 +31,12 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
           <Switch>
             <Route exact path="/" component={MainPage} />
             <Route exact path="/second" component={SecondPage} />
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       </Provider>
     );
   }
