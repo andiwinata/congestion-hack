@@ -10,7 +10,7 @@ const addUnitLabel = keyName => {
     case TIME:
       return `${capitalizeFirstLetter(keyName)} (mins)`;
     case ENVIRONMENT:
-      return `${capitalizeFirstLetter(keyName)} (gr of CO2)`;
+      return `${capitalizeFirstLetter(keyName)} (kg of CO2)`;
     case HEALTH:
       return `${capitalizeFirstLetter(keyName)} (cal)`;
     default:
@@ -27,7 +27,7 @@ const addPrefixSuffix = (text, keyName) => {
     case TIME:
       return `${capitalizeFirstLetter(keyName)}: ${text} mins`;
     case ENVIRONMENT:
-      return `${capitalizeFirstLetter(keyName)}: ${text} gr CO2`;
+      return `${capitalizeFirstLetter(keyName)}: ${text} kg CO2`;
     case HEALTH:
       return `${capitalizeFirstLetter(keyName)}: ${text} cal`;
     default:

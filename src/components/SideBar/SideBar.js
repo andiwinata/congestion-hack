@@ -22,7 +22,7 @@ const getYearlyCost = mapUrl => {
       <ul className="sideBarList">
         <li>$ {trip.costYearly}</li>
         <li>{(trip.timeYearly / 1440).toFixed(1)} days</li>
-        <li>{trip.environmentYearly} grams of CO2</li>
+        <li>{trip.environmentYearly} kgs of CO2</li>
         <li>{trip.healthYearly} calories</li>
       </ul>
       <button class="button is-success is-fullwidth knowMore">Want to know more?</button>
