@@ -24,7 +24,7 @@ const SecondPage = () => (
     <CarCostChart />
     <hr />
     <div className="imageWrapper">
-      <h2>The likelihood of serious accidents along the way</h2>
+      <h2>The likelihood of serious accidents along the chosen route</h2>
       <img src={heatMapImage} alt="heatmap" />
     </div>
   </div>
