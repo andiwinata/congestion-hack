@@ -13,3 +13,15 @@
 .mapWrapper {
   padding-left: 0;
 }
+
+.imageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+}

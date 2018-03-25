@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
 import { HashRouter, Route, Switch } from 'react-router-dom';
-import CarCostChart from 'components/CarCostChart/CarCostChart'
+import CarCostChart from 'components/CarCostChart/CarCostChart';
 import SideBar from 'components/SideBar/SideBar';
 import Map from 'components/Map/Map';
 import configureStore from 'store/configureStore';
@@ -22,9 +22,13 @@ const MainPage = () => (
 const SecondPage = () => (
   <div>
     <CarCostChart />
-    <img src={heatMapImage} alt="heatmap" />
+    <hr />
+    <div className="imageWrapper">
+      <h2>The likelihood of serious accidents along the way</h2>
+      <img src={heatMapImage} alt="heatmap" />
+    </div>
   </div>
-)
+);
 
 const store = configureStore();
 class App extends Component {
